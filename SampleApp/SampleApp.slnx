@@ -1,0 +1,22 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CalculatorApp/CalculatorApp.csproj" Id="7d8a0730-6be3-474d-9194-076fdeb2346c" />
+  <Project Path="CalculatorAppSetup/CalculatorAppSetup.wixproj" Type="b7dd6f7e-def8-4e67-b5b7-07ef123db6f0" Id="0bb150e9-ac56-45f4-9f5f-224e00ce5871">
+    <Platform Solution="*|Any CPU" Project="x64" />
+  </Project>
+  <Project Path="GreetingLibrary/GreetingLibrary.csproj" Id="43770608-d765-4383-afa5-c2da3f0f6513" />
+  <Project Path="MathLibrary/MathLibrary.csproj" Id="3236abc4-f8ac-4b03-8051-b921b1a0dbf1" />
+  <Project Path="MultiDllAppSetup/MultiDllAppSetup.wixproj" Type="b7dd6f7e-def8-4e67-b5b7-07ef123db6f0" Id="c7853036-4f8b-4b13-8fc8-0f0713a941e9">
+    <Platform Solution="*|Any CPU" Project="x64" />
+  </Project>
+  <Project Path="MutliDLLApp/MultiDLLApp.csproj" Id="4c5ae48a-9884-4989-9f3a-652190d20370" />
+  <Project Path="SampleApp/SampleApp.csproj" />
+  <Project Path="SampleAppSetup/SampleAppSetup.wixproj" Type="b7dd6f7e-def8-4e67-b5b7-07ef123db6f0">
+    <Platform Solution="*|Any CPU" Project="x64" />
+  </Project>
+</Solution>

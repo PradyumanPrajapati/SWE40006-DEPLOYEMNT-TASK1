@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="Pradyuman104795326.SampleAppSetup" Name="SampleAppSetup" Manufacturer="Pradyuman" Version="1.0.0" UpgradeCode="{A132EA76-5DA3-442A-BD1F-8A8E27A3064D}">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>

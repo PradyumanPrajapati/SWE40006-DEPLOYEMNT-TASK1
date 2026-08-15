@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="Pradyuman104795326.MultiDllAppSetup" Name="MultiDllAppSetup" Manufacturer="Pradyuman" Version="1.0.0" UpgradeCode="{A9080707-CF18-4166-BFD3-15672E6146DE}">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>

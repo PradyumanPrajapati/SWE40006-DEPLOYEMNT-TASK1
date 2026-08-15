@@ -1,0 +1,23 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+      <Component>
+        <File Id="MultiDLLAppEXE" Source="$(var.MultiDLLApp.TargetDir)\MultiDllApp.exe" KeyPath="yes" />
+      </Component>
+	  <Component>
+		<File Id="MultiDLLAppDLL" Source="$(var.MultiDLLApp.TargetDir)\MultiDllApp.dll" />
+	  </Component>
+	  <Component>
+		<File Id="MultiDLLAppRuntimeConfig" Source="$(var.MultiDLLApp.TargetDir)\MultiDllApp.runtimeconfig.json" />
+	  </Component>
+	  <Component>
+		<File Id="MathLibraryDLL" Source="$(var.MultiDLLApp.TargetDir)\MathLibrary.dll" />
+	  </Component>
+	  <Component>
+		<File Id="GreetingLibraryDLL" Source="$(var.MultiDLLApp.TargetDir)\GreetingLibrary.dll" />
+	  </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
+
+

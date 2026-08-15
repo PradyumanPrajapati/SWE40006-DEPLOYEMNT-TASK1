@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="Pradyuman104795326.CalculatorAppSetup" Name="CalculatorAppSetup" Manufacturer="Pradyuman" Version="1.0.0" UpgradeCode="{8004D7B3-6086-4D72-A2F1-CCC01A3E4DCF}">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>
