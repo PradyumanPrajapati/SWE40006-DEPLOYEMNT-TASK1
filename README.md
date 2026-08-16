@@ -5,7 +5,7 @@ This repository contains the source code and WiX installer projects for **Task 1
 ## Tasks Completed
 1. Task 1.1 (Pass Level) - A simple a console app packaged into an .msi using WiX.
 2. Task 1.2 (Credit Level) - A simple calculator supporting basic arithmetic operations developed using Windows Forms (C#).
-3. Task 1.3 (Distinction Level) - A console app depending on two custom class libraries (multiple DLLs), all correctly authorised as WiX components.
+3. Task 1.3 (Distinction Level) - A console app depending on two custom class libraries (`MathLibrary` and `Greeting Library`), all correctly authorised as WiX components.
 
 ## Task 1.4 (High Distinction)
 `Calculator App` was published via:
