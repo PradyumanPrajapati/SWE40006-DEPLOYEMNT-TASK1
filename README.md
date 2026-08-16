@@ -1,5 +1,6 @@
 # SWE40006-DEPLOYEMNT-TASK1: WiX Toolset Packaging
 This repository contains the source code and WiX installer projects for **Task 1: Desktop Application Deployment with WiX Toolset**
+
 **Declared Target Level: High Distinction (Task 1.4)**
 ## Tasks Completed
 1. Task 1.1 (Pass Level) - A simple a console app packaged into an .msi using WiX.
